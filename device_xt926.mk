@@ -29,6 +29,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
 
 PRODUCT_PROPERTY_OVERRIDES += \
+	net.tcp.buffersize.wifi=4096,87380,256960,4096,163,84,256960 \
 	telephony.lteOnCdmaDevice=1 \
 	ro.config.svlte1x=true \
 	persist.radio.eons.enabled= true \
