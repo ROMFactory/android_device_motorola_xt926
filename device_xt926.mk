@@ -61,3 +61,4 @@ $(call inherit-product, device/motorola/msm8960-common/keychars/keychars.mk)
 $(call inherit-product, device/motorola/msm8960-common/keylayout/keylayout.mk)
 $(call inherit-product, device/motorola/msm8960-common/modules/nfc/nfc.mk)
 $(call inherit-product-if-exists, vendor/motorola/xt926/xt926-vendor.mk)
+
