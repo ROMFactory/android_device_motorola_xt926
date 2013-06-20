@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 #
 # Copyright (C) 2013 The CyanogenMod Project
 #
@@ -25,10 +23,6 @@
 # lines, full and xt926, hence its name.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from xt926 device
->>>>>>> 55cec1f145136493f7bb378a007633f719f03a9f
 $(call inherit-product, device/motorola/xt926/device_xt926.mk)
 PRODUCT_COPY_FILES += device/motorola/xt926/apns-complete-conf.xml:system/etc/apns-conf.xml
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
