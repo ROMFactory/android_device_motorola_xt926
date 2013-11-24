@@ -48,3 +48,6 @@ SKIP_SET_METADATA := true
 
 # userdata size is double for maxx
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12884901888
+
+# make liblight
+TARGET_PROVIDES_LIBLIGHT := true
