@@ -17,7 +17,9 @@
 */
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources>
 
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent" translatable="false">motoxt926</string>
@@ -25,3 +27,4 @@
     <!-- MMS user agent prolfile url -->
     <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.vtext.com/mot/xt926/xt926.xml</string>
 </resources>
+
