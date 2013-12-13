@@ -45,6 +45,7 @@ DEVICE_RESOLUTION := 720x1280
 
 #Don't use set_metadata
 #SKIP_SET_METADATA := true
+RECOVERY_CANT_USE_CONFIG_EXT4_FS_XATTR := true
 
 # userdata size is double for maxx
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12884901888
